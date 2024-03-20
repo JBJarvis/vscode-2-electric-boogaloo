@@ -1,0 +1,8 @@
+import spacy
+import requests
+
+# Load the English Language Model
+nlp = spacy.load("en_core_web_md")
+
+def get_weather(city):
+    # Replace with OpenWeather API Key
